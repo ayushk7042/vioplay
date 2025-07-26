@@ -12,8 +12,8 @@ constructor(
     this.success = false 
     this.errors = this.errors
 
-    if (statck) {
-        this.stack = statck
+    if (stack) {
+        this.stack = stack
     } else {
         ErrorcaptureStacktrace(this, this.constructor)
     }
